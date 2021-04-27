@@ -21,12 +21,12 @@
       <b-button
         variant="primary"
         @click="submitAnswer"
-        :disabled="selectedIndex === null || answered"
+        :disabled="selectedIndex === null || répondu"
       >
         Submit
       </b-button>
       <b-button @click="next" variant="success">
-        Next
+        Suivant
       </b-button>
     </b-jumbotron>
   </div>

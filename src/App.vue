@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+
     <Header
       :numCorrect="numCorrect"
       :numTotal="numTotal"
@@ -50,7 +51,7 @@ export default {
     }
   },
   mounted: function() {
-    fetch('https://opentdb.com/api.php?amount=10&category=27&type=multiple', {
+    fetch('https://opentdb.com/api.php?amount=10', {
       method: 'get'
     })
       .then((response) => {

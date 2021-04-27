@@ -5,7 +5,8 @@ import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 
 import App from './App.vue'
-
+import CircularCountDownTimer from "vue-circular-count-down-timer";
+Vue.use(CircularCountDownTimer);
 Vue.use(BootstrapVue)
 Vue.config.productionTip = false
 
