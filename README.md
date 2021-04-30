@@ -1,4 +1,7 @@
 # quiz
+
+https://opentdb.com/api_config.php
+
 Queezie est une application de … quizz  !
 
 Queezie devra répondre aux besoins suivants :​
